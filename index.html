@@ -1,0 +1,1795 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <link rel='stylesheet' href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css'>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.3/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <title>Recway - Portal</title>
+</head>
+
+<body>
+    <div class="p-0 m-0 w-100">
+        <div class="sidebar-section">
+            <div class="sidebar">
+                <div class="logo-section">
+                    <img src="assets/images/logo.png" alt="" class="img-fluid">
+                </div>
+
+                <ul class="nav-links">
+                    <li class="active">
+                        <a href="#">
+                            <i class='bx bx-grid-alt'></i>
+                            <span class="link_name">Dashboard</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="bi bi-person"></i>
+                            <span class="link_name">Admin</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="bi bi-people"></i>
+                            <span class="link_name">Staff</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="bx bx-user"></i>
+                            <span class="link_name">Customers</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="bx bx-collection"></i>
+                            <span class="link_name">Candidates</span>
+                        </a>
+                    </li>
+                    <li>
+                        <div class="iocn-link">
+                            <a href="#">
+                                <i class="bi bi-clipboard-data"></i>
+                                <span class="link_name">Statuses</span>
+                            </a>
+                            <i class='bx bxs-chevron-down arrow'></i>
+                        </div>
+                        <ul class="sub-menu">
+                            <li><a class="link_name" href="#">Category</a></li>
+                            <li><a href="#">HTML & CSS</a></li>
+                            <li><a href="#">JavaScript</a></li>
+                            <li><a href="#">PHP & MySQL</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="bi bi-card-checklist"></i>
+                            <span class="link_name">Services</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="bi bi-graph-up-arrow"></i>
+                            <span class="link_name">Statistics</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="bi bi-clock-history"></i>
+                            <span class="link_name">History</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="bi bi-list-check"></i>
+                            <span class="link_name">Logs</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="bi bi-geo-alt"></i>
+                            <span class="link_name">Places</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="bi bi-chat-dots"></i>
+                            <span class="link_name">Messages</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="bi bi-person-gear"></i>
+                            <span class="link_name">Account Settings</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="bi bi-chat-dots"></i>
+                            <span class="link_name">Site Settings</span>
+                        </a>
+                    </li>
+
+
+                </ul>
+            </div>
+        </div>
+        <div class="main-section ms-auto">
+            <header class="header">
+                <div class="d-flex justify-content-between">
+                    <div class="search-section">
+                        <i class="bi bi-search search-input"></i>
+                        <input type="search" placeholder="Search here...">
+                    </div>
+                    <div class="d-flex justify-content-end">
+                        <div class="languages">
+                            <img src="assets/images/Flag_of_Sweden.svg.png" alt="" class="img-fluid non-active">
+                            <img src="assets/images/US.webp" alt="" class="img-fluid active">
+                        </div>
+
+                        <div class="profile-img">
+                            <img src="assets/images/219983.png" alt="">
+
+                            <div class="tool-pit">
+                                <div class="tool-pit-content">
+                                    <div class="d-flex justify-content-end">
+                                        <div class="arrow-up me-3"></div>
+                                    </div>
+                                    <div class="tool-pit-content--header">
+                                        <p class="title mb-0 pb-0">Admin</p>
+                                        <h1 class="name mt-2 mb-0 pb-0">Muhammad Awais</h1>
+                                    </div>
+
+                                    <ul class=" menus">
+                                        <li><a href="">Account Settings</a></li>
+                                        <li><a href="">Logout</a></li>
+
+                                        <hr>
+
+                                        <li><a href=""> <i class="bx bx-user me-3"></i>Add New Admin</a></li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="mx-lg-4 main-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 position-relative">
+                            <a href="" class="tab-card yellow-card">
+                                Interviews
+                            </a>
+                            <div class="arrow-down-yellow"></div>
+                        </div>
+                        <div class="col-lg-4">
+                            <a href="" class="tab-card purple-card">
+                                Background Check
+                            </a>
+                        </div>
+                        <div class="col-lg-4">
+                            <a href="" class="tab-card green-card">
+                                All Orders
+                            </a>
+                        </div>
+
+                        <div class="col-lg-12">
+                            <div class="btns-row my-4">
+                                <span>
+                                    <a href="" class="btn-primary">
+                                        New Orders
+                                        <div class="btn-number">10</div>
+                                    </a>
+                                </span>
+
+                                <span>
+                                    <a href="" class="btn-primary">
+                                        Pending
+                                        <div class="btn-number">10</div>
+                                    </a>
+                                </span>
+
+                                <span>
+                                    <a href="" class="btn-primary">
+                                        Consent Sent
+                                        <div class="btn-number">10</div>
+                                    </a>
+                                </span>
+
+                                <span>
+                                    <a href="" class="btn-primary">
+                                        Approval Recieved
+                                        <div class="btn-number">10</div>
+                                    </a>
+                                </span>
+
+                                <span> <a href="" class="btn-primary">
+                                        Research Started
+                                        <div class="btn-number">10</div>
+                                    </a></span>
+
+                                <span>
+                                    <a href="" class="btn-primary">
+                                        Result Recieved
+                                        <div class="btn-number">10</div>
+                                    </a>
+                                </span>
+                                <span>
+
+                                    <a href="" class="btn-primary">
+                                        Deviation
+                                        <div class="btn-number">10</div>
+                                    </a>
+                                </span>
+
+                                <span><a href="" class="btn-primary">
+                                        Aproved
+                                        <div class="btn-number">10</div>
+                                    </a></span>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 mt-3">
+                            <a href="" style="text-decoration: none;">
+                                <div class="total-card shadow-sm">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="d-flex flex-column align-items-start">
+                                            <h1 class="text-lg">Total Staff</h1>
+                                            <h1 class="text-numer mb-0 pb-0">11</h1>
+                                        </div>
+                                        <div class="icon-card">
+                                            <i class="bi bi-people"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 mt-3">
+                            <a href="" style="text-decoration: none;">
+                                <div class="total-card shadow-sm">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="d-flex flex-column align-items-start">
+                                            <h1 class="text-lg">Total Orders</h1>
+                                            <h1 class="text-numer mb-0 pb-0">13</h1>
+                                        </div>
+                                        <div class="icon-card">
+                                            <i class="bi bi-clipboard-data "></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+
+                        <div class="col-lg-4 col-md-6 mt-3">
+                            <a href="" style="text-decoration: none;">
+                                <div class="total-card shadow-sm">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="d-flex flex-column align-items-start">
+                                            <h1 class="text-lg">Total Customers</h1>
+                                            <h1 class="text-numer mb-0 pb-0">70</h1>
+                                        </div>
+                                        <div class="icon-card">
+                                            <i class="bi bi-person  "></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+
+
+                    <!-- table row -->
+                    <div class="row mt-5">
+
+                        <div class="col-lg-12">
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="table-section">
+                                <div class="table-div">
+                                    <div class="d-flex justify-content-between align-items-center mb-3">
+                                        <h1 class="main-heading">Candidates</h1>
+
+                                        <div class="d-flex align-items-center action-icons">
+                                            <span><i class="bi bi-pen"></i></span>
+                                            <span><i class="bi bi-trash"></i></span>
+                                               <span><i class="bi bi-person"></i></span>
+                                        </div>
+                                    </div>
+                                    <input class="filter-input w-100  mb-3 mt-0 rounded-2" type="text"
+                                        placeholder="Filter Invoice Date" name="stats_date" id="invoice_date_filter">
+
+                                    <table id="myTable" class="display Table">
+                                        <thead>
+                                            <tr>
+                                                <th class="table-head"><input type="checkbox" class="table-checkbox">
+                                                </th>
+                                                <th class="table-head">#</th>
+                                                <th class="table-head">Action</th>
+                                                <th class="table-head">Order ID</th>
+                                                <th class="table-head">VASC ID</th>
+                                                <th class="table-head">Name</th>
+                                                <th class="table-head">SSN</th>
+                                                <th class="table-head">Company</th>
+                                                <th class="table-head">Customers</th>
+                                                <th class="table-head">SSN</th>
+                                                <th class="table-head">Staff</th>
+                                                <th class="table-head">Status</th>
+                                                <th class="table-head">Invoice</th>
+                                                <th class="table-head">Economy</th>
+                                                <th class="table-head">Criminal Record</th>
+
+                                                <th class="table-head">Background Check Date</th>
+                                                <th class="table-head">Invoice date</th>
+                                                <th class="table-head">Order Created</th>
+                                                <th class="table-head">Order Delivery</th>
+                                                <th class="table-head">Service Type</th>
+
+                                                <!-- <th class="table-head">Order Initiated</th>
+                                          <th class="table-head">Interview date</th>
+                                          <th class="table-head">Background Check</th> -->
+
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+
+                                            <tr>
+                                                <td class="f-14"><input type="checkbox" class="table-checkbox"></td>
+                                                <td class="f-14">#087</td>
+                                                <td>
+                                                    <div class="dropdown">
+                                                        <button class="table-menu-btn mx-auto" type="button"
+                                                            id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                                            aria-expanded="false">
+                                                            <i class="bi bi-three-dots"></i>
+                                                        </button>
+                                                        <ul class="dropdown-menu p-2 ps-3 table-menu-btn-list"
+                                                            aria-labelledby="dropdownMenuButton1">
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black "><i
+                                                                        class="bi bi-pen text-black f-14 me-2"></i>
+                                                                    Edit</a>
+                                                            </li>
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-eye  f-14 text-black me-2"></i>
+                                                                    View</a></li>
+
+
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-people  f-14 text-black me-2"></i>
+                                                                    Change Staff</a></li>
+
+
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-pen  f-14 text-black me-2"></i>
+                                                                    Change Status</a></li>
+
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-book  f-14 text-black me-2"></i>
+                                                                    Comment</a></li>
+
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-list  f-14 text-black me-2"></i>
+                                                                    Generate Report</a></li>
+
+
+                                                            <li><a class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-trash3 f-14 text-black me-2"></i>Delete</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+
+                                                </td>
+                                                <td class="f-14">#087</td>
+                                                <td class="f-14">#087</td>
+                                                <td class="f-14"><a href="candidate-profile.html"
+                                                        class="no-decoration text-black">Muhammad Hafeez</a></td>
+                                                <td class="f-14"> 19970129-5103</td>
+                                                <td class="f-14">Safina</td>
+                                                <td class="f-14"> Torbjörn Christiernsson</td>
+                                                <td class="f-14">Not Assigned</td>
+                                                <td>
+                                                    <div class="status-approved">Result Recieved</div>
+                                                </td>
+                                                <td class="f-14"><input type="checkbox" class="table-checkbox"></td>
+                                                <td class="">
+                                                    <div class="d-flex justify-content-center">
+                                                        <label class="me-2">
+                                                            <input class="economy-radio" type="radio" name="9J8E30">
+                                                            <span class="custom-economy-radio uncheck_economy"
+                                                                data-id="933"></span>
+                                                        </label>
+                                                        <label>
+                                                            <input class="economy2-radio" checked="" type="radio"
+                                                                name="9J8E30">
+                                                            <span class="custom-economy2-radio check_economy"
+                                                                data-id="933"></span>
+                                                        </label>
+                                                    </div>
+                                                </td>
+                                                <td class="">
+                                                    <div class="d-flex justify-content-center">
+                                                        <label class="me-2">
+                                                            <input class="economy-radio" type="radio" name="9J8E30">
+                                                            <span class="custom-economy-radio uncheck_economy"
+                                                                data-id="933"></span>
+                                                        </label>
+                                                        <label>
+                                                            <input class="economy2-radio" checked="" type="radio"
+                                                                name="9J8E30">
+                                                            <span class="custom-economy2-radio check_economy"
+                                                                data-id="933"></span>
+                                                        </label>
+                                                    </div>
+                                                </td>
+
+
+                                                <td class="f-14">2023-06-07</td>
+                                                <td class="f-14">Null</td>
+                                                <td class="f-14">2023-06-07</td>
+
+                                                <td class="f-14">2023-06-14</td>
+
+                                                <td class="f-14">Dekra - Bakgrundskontroll nivå 1</td>
+                                                <td class="f-14">Dekra - Bakgrundskontroll nivå 1</td>
+
+
+                                            </tr>
+
+
+                                            <tr>
+                                                <td class="f-14"><input type="checkbox" class="table-checkbox"></td>
+                                                <td class="f-14">#087</td>
+                                                <td>
+                                                     <div class="dropdown">
+                                                        <button class="table-menu-btn mx-auto" type="button"
+                                                            id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                                            aria-expanded="false">
+                                                            <i class="bi bi-three-dots"></i>
+                                                        </button>
+                                                        <ul class="dropdown-menu p-2 ps-3 table-menu-btn-list"
+                                                            aria-labelledby="dropdownMenuButton1">
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black "><i
+                                                                        class="bi bi-pen text-black f-14 me-2"></i>
+                                                                    Edit</a>
+                                                            </li>
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-eye  f-14 text-black me-2"></i>
+                                                                    View</a></li>
+
+
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-people  f-14 text-black me-2"></i>
+                                                                    Change Staff</a></li>
+
+
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-pen  f-14 text-black me-2"></i>
+                                                                    Change Status</a></li>
+
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-book  f-14 text-black me-2"></i>
+                                                                    Comment</a></li>
+
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-list  f-14 text-black me-2"></i>
+                                                                    Generate Report</a></li>
+
+
+                                                            <li><a class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-trash3 f-14 text-black me-2"></i>Delete</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+
+                                                </td>
+                                                <td class="f-14">#087</td>
+                                                <td class="f-14">#087</td>
+                                                <td class="f-14"><a href="candidate-profile.html"
+                                                        class="no-decoration text-black">Muhammad Hafeez</a></td>
+                                                <td class="f-14"> 19970129-5103</td>
+                                                <td class="f-14">Safina</td>
+                                                <td class="f-14"> Torbjörn Christiernsson</td>
+                                                <td class="f-14">Not Assigned</td>
+                                                <td>
+                                                    <div class="status-approved">Result Recieved</div>
+                                                </td>
+                                                <td class="f-14"><input type="checkbox" class="table-checkbox"></td>
+                                                <td class="">
+                                                    <div class="d-flex justify-content-center">
+                                                        <label class="me-2">
+                                                            <input class="economy-radio" type="radio" name="9J8E30">
+                                                            <span class="custom-economy-radio uncheck_economy"
+                                                                data-id="933"></span>
+                                                        </label>
+                                                        <label>
+                                                            <input class="economy2-radio" checked="" type="radio"
+                                                                name="9J8E30">
+                                                            <span class="custom-economy2-radio check_economy"
+                                                                data-id="933"></span>
+                                                        </label>
+                                                    </div>
+                                                </td>
+                                                <td class="">
+                                                    <div class="d-flex justify-content-center">
+                                                        <label class="me-2">
+                                                            <input class="economy-radio" type="radio" name="9J8E30">
+                                                            <span class="custom-economy-radio uncheck_economy"
+                                                                data-id="933"></span>
+                                                        </label>
+                                                        <label>
+                                                            <input class="economy2-radio" checked="" type="radio"
+                                                                name="9J8E30">
+                                                            <span class="custom-economy2-radio check_economy"
+                                                                data-id="933"></span>
+                                                        </label>
+                                                    </div>
+                                                </td>
+
+
+                                                <td class="f-14">2023-06-07</td>
+                                                <td class="f-14">Null</td>
+                                                <td class="f-14">2023-06-07</td>
+
+                                                <td class="f-14">2023-06-14</td>
+
+                                                <td class="f-14">Dekra - Bakgrundskontroll nivå 1</td>
+                                                <td class="f-14">Dekra - Bakgrundskontroll nivå 1</td>
+
+
+                                            </tr>
+
+
+                                            <tr>
+                                                <td class="f-14"><input type="checkbox" class="table-checkbox"></td>
+                                                <td class="f-14">#087</td>
+                                                <td>
+                                                     <div class="dropdown">
+                                                        <button class="table-menu-btn mx-auto" type="button"
+                                                            id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                                            aria-expanded="false">
+                                                            <i class="bi bi-three-dots"></i>
+                                                        </button>
+                                                        <ul class="dropdown-menu p-2 ps-3 table-menu-btn-list"
+                                                            aria-labelledby="dropdownMenuButton1">
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black "><i
+                                                                        class="bi bi-pen text-black f-14 me-2"></i>
+                                                                    Edit</a>
+                                                            </li>
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-eye  f-14 text-black me-2"></i>
+                                                                    View</a></li>
+
+
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-people  f-14 text-black me-2"></i>
+                                                                    Change Staff</a></li>
+
+
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-pen  f-14 text-black me-2"></i>
+                                                                    Change Status</a></li>
+
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-book  f-14 text-black me-2"></i>
+                                                                    Comment</a></li>
+
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-list  f-14 text-black me-2"></i>
+                                                                    Generate Report</a></li>
+
+
+                                                            <li><a class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-trash3 f-14 text-black me-2"></i>Delete</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+
+                                                </td>
+                                                <td class="f-14">#087</td>
+                                                <td class="f-14">#087</td>
+                                                <td class="f-14"><a href="candidate-profile.html"
+                                                        class="no-decoration text-black">Muhammad Hafeez</a></td>
+                                                <td class="f-14"> 19970129-5103</td>
+                                                <td class="f-14">Safina</td>
+                                                <td class="f-14"> Torbjörn Christiernsson</td>
+                                                <td class="f-14">Not Assigned</td>
+                                                <td>
+                                                    <div class="status-approved">Result Recieved</div>
+                                                </td>
+                                                <td class="f-14"><input type="checkbox" class="table-checkbox"></td>
+                                                <td class="">
+                                                    <div class="d-flex justify-content-center">
+                                                        <label class="me-2">
+                                                            <input class="economy-radio" type="radio" name="9J8E30">
+                                                            <span class="custom-economy-radio uncheck_economy"
+                                                                data-id="933"></span>
+                                                        </label>
+                                                        <label>
+                                                            <input class="economy2-radio" checked="" type="radio"
+                                                                name="9J8E30">
+                                                            <span class="custom-economy2-radio check_economy"
+                                                                data-id="933"></span>
+                                                        </label>
+                                                    </div>
+                                                </td>
+                                                <td class="">
+                                                    <div class="d-flex justify-content-center">
+                                                        <label class="me-2">
+                                                            <input class="economy-radio" type="radio" name="9J8E30">
+                                                            <span class="custom-economy-radio uncheck_economy"
+                                                                data-id="933"></span>
+                                                        </label>
+                                                        <label>
+                                                            <input class="economy2-radio" checked="" type="radio"
+                                                                name="9J8E30">
+                                                            <span class="custom-economy2-radio check_economy"
+                                                                data-id="933"></span>
+                                                        </label>
+                                                    </div>
+                                                </td>
+
+
+                                                <td class="f-14">2023-06-07</td>
+                                                <td class="f-14">Null</td>
+                                                <td class="f-14">2023-06-07</td>
+
+                                                <td class="f-14">2023-06-14</td>
+
+                                                <td class="f-14">Dekra - Bakgrundskontroll nivå 1</td>
+                                                <td class="f-14">Dekra - Bakgrundskontroll nivå 1</td>
+
+
+                                            </tr>
+
+
+                                            <tr>
+                                                <td class="f-14"><input type="checkbox" class="table-checkbox"></td>
+                                                <td class="f-14">#087</td>
+                                                <td>
+                                                     <div class="dropdown">
+                                                        <button class="table-menu-btn mx-auto" type="button"
+                                                            id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                                            aria-expanded="false">
+                                                            <i class="bi bi-three-dots"></i>
+                                                        </button>
+                                                        <ul class="dropdown-menu p-2 ps-3 table-menu-btn-list"
+                                                            aria-labelledby="dropdownMenuButton1">
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black "><i
+                                                                        class="bi bi-pen text-black f-14 me-2"></i>
+                                                                    Edit</a>
+                                                            </li>
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-eye  f-14 text-black me-2"></i>
+                                                                    View</a></li>
+
+
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-people  f-14 text-black me-2"></i>
+                                                                    Change Staff</a></li>
+
+
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-pen  f-14 text-black me-2"></i>
+                                                                    Change Status</a></li>
+
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-book  f-14 text-black me-2"></i>
+                                                                    Comment</a></li>
+
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-list  f-14 text-black me-2"></i>
+                                                                    Generate Report</a></li>
+
+
+                                                            <li><a class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-trash3 f-14 text-black me-2"></i>Delete</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+
+                                                </td>
+                                                <td class="f-14">#087</td>
+                                                <td class="f-14">#087</td>
+                                                <td class="f-14"><a href="candidate-profile.html"
+                                                        class="no-decoration text-black">Muhammad Hafeez</a></td>
+                                                <td class="f-14"> 19970129-5103</td>
+                                                <td class="f-14">Safina</td>
+                                                <td class="f-14"> Torbjörn Christiernsson</td>
+                                                <td class="f-14">Not Assigned</td>
+                                                <td>
+                                                    <div class="status-approved">Result Recieved</div>
+                                                </td>
+                                                <td class="f-14"><input type="checkbox" class="table-checkbox"></td>
+                                                <td class="">
+                                                    <div class="d-flex justify-content-center">
+                                                        <label class="me-2">
+                                                            <input class="economy-radio" type="radio" name="9J8E30">
+                                                            <span class="custom-economy-radio uncheck_economy"
+                                                                data-id="933"></span>
+                                                        </label>
+                                                        <label>
+                                                            <input class="economy2-radio" checked="" type="radio"
+                                                                name="9J8E30">
+                                                            <span class="custom-economy2-radio check_economy"
+                                                                data-id="933"></span>
+                                                        </label>
+                                                    </div>
+                                                </td>
+                                                <td class="">
+                                                    <div class="d-flex justify-content-center">
+                                                        <label class="me-2">
+                                                            <input class="economy-radio" type="radio" name="9J8E30">
+                                                            <span class="custom-economy-radio uncheck_economy"
+                                                                data-id="933"></span>
+                                                        </label>
+                                                        <label>
+                                                            <input class="economy2-radio" checked="" type="radio"
+                                                                name="9J8E30">
+                                                            <span class="custom-economy2-radio check_economy"
+                                                                data-id="933"></span>
+                                                        </label>
+                                                    </div>
+                                                </td>
+
+
+                                                <td class="f-14">2023-06-07</td>
+                                                <td class="f-14">Null</td>
+                                                <td class="f-14">2023-06-07</td>
+
+                                                <td class="f-14">2023-06-14</td>
+
+                                                <td class="f-14">Dekra - Bakgrundskontroll nivå 1</td>
+                                                <td class="f-14">Dekra - Bakgrundskontroll nivå 1</td>
+
+
+                                            </tr>
+
+
+                                            <tr>
+                                                <td class="f-14"><input type="checkbox" class="table-checkbox"></td>
+                                                <td class="f-14">#087</td>
+                                                <td>
+                                                     <div class="dropdown">
+                                                        <button class="table-menu-btn mx-auto" type="button"
+                                                            id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                                            aria-expanded="false">
+                                                            <i class="bi bi-three-dots"></i>
+                                                        </button>
+                                                        <ul class="dropdown-menu p-2 ps-3 table-menu-btn-list"
+                                                            aria-labelledby="dropdownMenuButton1">
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black "><i
+                                                                        class="bi bi-pen text-black f-14 me-2"></i>
+                                                                    Edit</a>
+                                                            </li>
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-eye  f-14 text-black me-2"></i>
+                                                                    View</a></li>
+
+
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-people  f-14 text-black me-2"></i>
+                                                                    Change Staff</a></li>
+
+
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-pen  f-14 text-black me-2"></i>
+                                                                    Change Status</a></li>
+
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-book  f-14 text-black me-2"></i>
+                                                                    Comment</a></li>
+
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-list  f-14 text-black me-2"></i>
+                                                                    Generate Report</a></li>
+
+
+                                                            <li><a class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-trash3 f-14 text-black me-2"></i>Delete</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+
+                                                </td>
+                                                <td class="f-14">#087</td>
+                                                <td class="f-14">#087</td>
+                                                <td class="f-14"><a href="candidate-profile.html"
+                                                        class="no-decoration text-black">Muhammad Hafeez</a></td>
+                                                <td class="f-14"> 19970129-5103</td>
+                                                <td class="f-14">Safina</td>
+                                                <td class="f-14"> Torbjörn Christiernsson</td>
+                                                <td class="f-14">Not Assigned</td>
+                                                <td>
+                                                    <div class="status-approved">Result Recieved</div>
+                                                </td>
+                                                <td class="f-14"><input type="checkbox" class="table-checkbox"></td>
+                                                <td class="">
+                                                    <div class="d-flex justify-content-center">
+                                                        <label class="me-2">
+                                                            <input class="economy-radio" type="radio" name="9J8E30">
+                                                            <span class="custom-economy-radio uncheck_economy"
+                                                                data-id="933"></span>
+                                                        </label>
+                                                        <label>
+                                                            <input class="economy2-radio" checked="" type="radio"
+                                                                name="9J8E30">
+                                                            <span class="custom-economy2-radio check_economy"
+                                                                data-id="933"></span>
+                                                        </label>
+                                                    </div>
+                                                </td>
+                                                <td class="">
+                                                    <div class="d-flex justify-content-center">
+                                                        <label class="me-2">
+                                                            <input class="economy-radio" type="radio" name="9J8E30">
+                                                            <span class="custom-economy-radio uncheck_economy"
+                                                                data-id="933"></span>
+                                                        </label>
+                                                        <label>
+                                                            <input class="economy2-radio" checked="" type="radio"
+                                                                name="9J8E30">
+                                                            <span class="custom-economy2-radio check_economy"
+                                                                data-id="933"></span>
+                                                        </label>
+                                                    </div>
+                                                </td>
+
+
+                                                <td class="f-14">2023-06-07</td>
+                                                <td class="f-14">Null</td>
+                                                <td class="f-14">2023-06-07</td>
+
+                                                <td class="f-14">2023-06-14</td>
+
+                                                <td class="f-14">Dekra - Bakgrundskontroll nivå 1</td>
+                                                <td class="f-14">Dekra - Bakgrundskontroll nivå 1</td>
+
+
+                                            </tr>
+
+
+                                            <tr>
+                                                <td class="f-14"><input type="checkbox" class="table-checkbox"></td>
+                                                <td class="f-14">#087</td>
+                                                <td>
+                                                     <div class="dropdown">
+                                                        <button class="table-menu-btn mx-auto" type="button"
+                                                            id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                                            aria-expanded="false">
+                                                            <i class="bi bi-three-dots"></i>
+                                                        </button>
+                                                        <ul class="dropdown-menu p-2 ps-3 table-menu-btn-list"
+                                                            aria-labelledby="dropdownMenuButton1">
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black "><i
+                                                                        class="bi bi-pen text-black f-14 me-2"></i>
+                                                                    Edit</a>
+                                                            </li>
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-eye  f-14 text-black me-2"></i>
+                                                                    View</a></li>
+
+
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-people  f-14 text-black me-2"></i>
+                                                                    Change Staff</a></li>
+
+
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-pen  f-14 text-black me-2"></i>
+                                                                    Change Status</a></li>
+
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-book  f-14 text-black me-2"></i>
+                                                                    Comment</a></li>
+
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-list  f-14 text-black me-2"></i>
+                                                                    Generate Report</a></li>
+
+
+                                                            <li><a class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-trash3 f-14 text-black me-2"></i>Delete</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+
+                                                </td>
+                                                <td class="f-14">#087</td>
+                                                <td class="f-14">#087</td>
+                                                <td class="f-14"><a href="candidate-profile.html"
+                                                        class="no-decoration text-black">Muhammad Hafeez</a></td>
+                                                <td class="f-14"> 19970129-5103</td>
+                                                <td class="f-14">Safina</td>
+                                                <td class="f-14"> Torbjörn Christiernsson</td>
+                                                <td class="f-14">Not Assigned</td>
+                                                <td>
+                                                    <div class="status-approved">Result Recieved</div>
+                                                </td>
+                                                <td class="f-14"><input type="checkbox" class="table-checkbox"></td>
+                                                <td class="">
+                                                    <div class="d-flex justify-content-center">
+                                                        <label class="me-2">
+                                                            <input class="economy-radio" type="radio" name="9J8E30">
+                                                            <span class="custom-economy-radio uncheck_economy"
+                                                                data-id="933"></span>
+                                                        </label>
+                                                        <label>
+                                                            <input class="economy2-radio" checked="" type="radio"
+                                                                name="9J8E30">
+                                                            <span class="custom-economy2-radio check_economy"
+                                                                data-id="933"></span>
+                                                        </label>
+                                                    </div>
+                                                </td>
+                                                <td class="">
+                                                    <div class="d-flex justify-content-center">
+                                                        <label class="me-2">
+                                                            <input class="economy-radio" type="radio" name="9J8E30">
+                                                            <span class="custom-economy-radio uncheck_economy"
+                                                                data-id="933"></span>
+                                                        </label>
+                                                        <label>
+                                                            <input class="economy2-radio" checked="" type="radio"
+                                                                name="9J8E30">
+                                                            <span class="custom-economy2-radio check_economy"
+                                                                data-id="933"></span>
+                                                        </label>
+                                                    </div>
+                                                </td>
+
+
+                                                <td class="f-14">2023-06-07</td>
+                                                <td class="f-14">Null</td>
+                                                <td class="f-14">2023-06-07</td>
+
+                                                <td class="f-14">2023-06-14</td>
+
+                                                <td class="f-14">Dekra - Bakgrundskontroll nivå 1</td>
+                                                <td class="f-14">Dekra - Bakgrundskontroll nivå 1</td>
+
+
+                                            </tr>
+
+
+                                            <tr>
+                                                <td class="f-14"><input type="checkbox" class="table-checkbox"></td>
+                                                <td class="f-14">#087</td>
+                                                <td>
+                                                     <div class="dropdown">
+                                                        <button class="table-menu-btn mx-auto" type="button"
+                                                            id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                                            aria-expanded="false">
+                                                            <i class="bi bi-three-dots"></i>
+                                                        </button>
+                                                        <ul class="dropdown-menu p-2 ps-3 table-menu-btn-list"
+                                                            aria-labelledby="dropdownMenuButton1">
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black "><i
+                                                                        class="bi bi-pen text-black f-14 me-2"></i>
+                                                                    Edit</a>
+                                                            </li>
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-eye  f-14 text-black me-2"></i>
+                                                                    View</a></li>
+
+
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-people  f-14 text-black me-2"></i>
+                                                                    Change Staff</a></li>
+
+
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-pen  f-14 text-black me-2"></i>
+                                                                    Change Status</a></li>
+
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-book  f-14 text-black me-2"></i>
+                                                                    Comment</a></li>
+
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-list  f-14 text-black me-2"></i>
+                                                                    Generate Report</a></li>
+
+
+                                                            <li><a class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-trash3 f-14 text-black me-2"></i>Delete</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+
+                                                </td>
+                                                <td class="f-14">#087</td>
+                                                <td class="f-14">#087</td>
+                                                <td class="f-14"><a href="candidate-profile.html"
+                                                        class="no-decoration text-black">Muhammad Hafeez</a></td>
+                                                <td class="f-14"> 19970129-5103</td>
+                                                <td class="f-14">Safina</td>
+                                                <td class="f-14"> Torbjörn Christiernsson</td>
+                                                <td class="f-14">Not Assigned</td>
+                                                <td>
+                                                    <div class="status-approved">Result Recieved</div>
+                                                </td>
+                                                <td class="f-14"><input type="checkbox" class="table-checkbox"></td>
+                                                <td class="">
+                                                    <div class="d-flex justify-content-center">
+                                                        <label class="me-2">
+                                                            <input class="economy-radio" type="radio" name="9J8E30">
+                                                            <span class="custom-economy-radio uncheck_economy"
+                                                                data-id="933"></span>
+                                                        </label>
+                                                        <label>
+                                                            <input class="economy2-radio" checked="" type="radio"
+                                                                name="9J8E30">
+                                                            <span class="custom-economy2-radio check_economy"
+                                                                data-id="933"></span>
+                                                        </label>
+                                                    </div>
+                                                </td>
+                                                <td class="">
+                                                    <div class="d-flex justify-content-center">
+                                                        <label class="me-2">
+                                                            <input class="economy-radio" type="radio" name="9J8E30">
+                                                            <span class="custom-economy-radio uncheck_economy"
+                                                                data-id="933"></span>
+                                                        </label>
+                                                        <label>
+                                                            <input class="economy2-radio" checked="" type="radio"
+                                                                name="9J8E30">
+                                                            <span class="custom-economy2-radio check_economy"
+                                                                data-id="933"></span>
+                                                        </label>
+                                                    </div>
+                                                </td>
+
+
+                                                <td class="f-14">2023-06-07</td>
+                                                <td class="f-14">Null</td>
+                                                <td class="f-14">2023-06-07</td>
+
+                                                <td class="f-14">2023-06-14</td>
+
+                                                <td class="f-14">Dekra - Bakgrundskontroll nivå 1</td>
+                                                <td class="f-14">Dekra - Bakgrundskontroll nivå 1</td>
+
+
+                                            </tr>
+
+
+                                            <tr>
+                                                <td class="f-14"><input type="checkbox" class="table-checkbox"></td>
+                                                <td class="f-14">#087</td>
+                                                <td>
+                                                     <div class="dropdown">
+                                                        <button class="table-menu-btn mx-auto" type="button"
+                                                            id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                                            aria-expanded="false">
+                                                            <i class="bi bi-three-dots"></i>
+                                                        </button>
+                                                        <ul class="dropdown-menu p-2 ps-3 table-menu-btn-list"
+                                                            aria-labelledby="dropdownMenuButton1">
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black "><i
+                                                                        class="bi bi-pen text-black f-14 me-2"></i>
+                                                                    Edit</a>
+                                                            </li>
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-eye  f-14 text-black me-2"></i>
+                                                                    View</a></li>
+
+
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-people  f-14 text-black me-2"></i>
+                                                                    Change Staff</a></li>
+
+
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-pen  f-14 text-black me-2"></i>
+                                                                    Change Status</a></li>
+
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-book  f-14 text-black me-2"></i>
+                                                                    Comment</a></li>
+
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-list  f-14 text-black me-2"></i>
+                                                                    Generate Report</a></li>
+
+
+                                                            <li><a class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-trash3 f-14 text-black me-2"></i>Delete</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+
+                                                </td>
+                                                <td class="f-14">#087</td>
+                                                <td class="f-14">#087</td>
+                                                <td class="f-14"><a href="candidate-profile.html"
+                                                        class="no-decoration text-black">Muhammad Hafeez</a></td>
+                                                <td class="f-14"> 19970129-5103</td>
+                                                <td class="f-14">Safina</td>
+                                                <td class="f-14"> Torbjörn Christiernsson</td>
+                                                <td class="f-14">Not Assigned</td>
+                                                <td>
+                                                    <div class="status-approved">Result Recieved</div>
+                                                </td>
+                                                <td class="f-14"><input type="checkbox" class="table-checkbox"></td>
+                                                <td class="">
+                                                    <div class="d-flex justify-content-center">
+                                                        <label class="me-2">
+                                                            <input class="economy-radio" type="radio" name="9J8E30">
+                                                            <span class="custom-economy-radio uncheck_economy"
+                                                                data-id="933"></span>
+                                                        </label>
+                                                        <label>
+                                                            <input class="economy2-radio" checked="" type="radio"
+                                                                name="9J8E30">
+                                                            <span class="custom-economy2-radio check_economy"
+                                                                data-id="933"></span>
+                                                        </label>
+                                                    </div>
+                                                </td>
+                                                <td class="">
+                                                    <div class="d-flex justify-content-center">
+                                                        <label class="me-2">
+                                                            <input class="economy-radio" type="radio" name="9J8E30">
+                                                            <span class="custom-economy-radio uncheck_economy"
+                                                                data-id="933"></span>
+                                                        </label>
+                                                        <label>
+                                                            <input class="economy2-radio" checked="" type="radio"
+                                                                name="9J8E30">
+                                                            <span class="custom-economy2-radio check_economy"
+                                                                data-id="933"></span>
+                                                        </label>
+                                                    </div>
+                                                </td>
+
+
+                                                <td class="f-14">2023-06-07</td>
+                                                <td class="f-14">Null</td>
+                                                <td class="f-14">2023-06-07</td>
+
+                                                <td class="f-14">2023-06-14</td>
+
+                                                <td class="f-14">Dekra - Bakgrundskontroll nivå 1</td>
+                                                <td class="f-14">Dekra - Bakgrundskontroll nivå 1</td>
+
+
+                                            </tr>
+
+
+                                            <tr>
+                                                <td class="f-14"><input type="checkbox" class="table-checkbox"></td>
+                                                <td class="f-14">#087</td>
+                                                <td>
+                                                     <div class="dropdown">
+                                                        <button class="table-menu-btn mx-auto" type="button"
+                                                            id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                                            aria-expanded="false">
+                                                            <i class="bi bi-three-dots"></i>
+                                                        </button>
+                                                        <ul class="dropdown-menu p-2 ps-3 table-menu-btn-list"
+                                                            aria-labelledby="dropdownMenuButton1">
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black "><i
+                                                                        class="bi bi-pen text-black f-14 me-2"></i>
+                                                                    Edit</a>
+                                                            </li>
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-eye  f-14 text-black me-2"></i>
+                                                                    View</a></li>
+
+
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-people  f-14 text-black me-2"></i>
+                                                                    Change Staff</a></li>
+
+
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-pen  f-14 text-black me-2"></i>
+                                                                    Change Status</a></li>
+
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-book  f-14 text-black me-2"></i>
+                                                                    Comment</a></li>
+
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-list  f-14 text-black me-2"></i>
+                                                                    Generate Report</a></li>
+
+
+                                                            <li><a class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-trash3 f-14 text-black me-2"></i>Delete</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+
+                                                </td>
+                                                <td class="f-14">#087</td>
+                                                <td class="f-14">#087</td>
+                                                <td class="f-14"><a href="candidate-profile.html"
+                                                        class="no-decoration text-black">Muhammad Hafeez</a></td>
+                                                <td class="f-14"> 19970129-5103</td>
+                                                <td class="f-14">Safina</td>
+                                                <td class="f-14"> Torbjörn Christiernsson</td>
+                                                <td class="f-14">Not Assigned</td>
+                                                <td>
+                                                    <div class="status-approved">Result Recieved</div>
+                                                </td>
+                                                <td class="f-14"><input type="checkbox" class="table-checkbox"></td>
+                                                <td class="">
+                                                    <div class="d-flex justify-content-center">
+                                                        <label class="me-2">
+                                                            <input class="economy-radio" type="radio" name="9J8E30">
+                                                            <span class="custom-economy-radio uncheck_economy"
+                                                                data-id="933"></span>
+                                                        </label>
+                                                        <label>
+                                                            <input class="economy2-radio" checked="" type="radio"
+                                                                name="9J8E30">
+                                                            <span class="custom-economy2-radio check_economy"
+                                                                data-id="933"></span>
+                                                        </label>
+                                                    </div>
+                                                </td>
+                                                <td class="">
+                                                    <div class="d-flex justify-content-center">
+                                                        <label class="me-2">
+                                                            <input class="economy-radio" type="radio" name="9J8E30">
+                                                            <span class="custom-economy-radio uncheck_economy"
+                                                                data-id="933"></span>
+                                                        </label>
+                                                        <label>
+                                                            <input class="economy2-radio" checked="" type="radio"
+                                                                name="9J8E30">
+                                                            <span class="custom-economy2-radio check_economy"
+                                                                data-id="933"></span>
+                                                        </label>
+                                                    </div>
+                                                </td>
+
+
+                                                <td class="f-14">2023-06-07</td>
+                                                <td class="f-14">Null</td>
+                                                <td class="f-14">2023-06-07</td>
+
+                                                <td class="f-14">2023-06-14</td>
+
+                                                <td class="f-14">Dekra - Bakgrundskontroll nivå 1</td>
+                                                <td class="f-14">Dekra - Bakgrundskontroll nivå 1</td>
+
+
+                                            </tr>
+
+
+                                            <tr>
+                                                <td class="f-14"><input type="checkbox" class="table-checkbox"></td>
+                                                <td class="f-14">#087</td>
+                                                <td>
+                                                     <div class="dropdown">
+                                                        <button class="table-menu-btn mx-auto" type="button"
+                                                            id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                                            aria-expanded="false">
+                                                            <i class="bi bi-three-dots"></i>
+                                                        </button>
+                                                        <ul class="dropdown-menu p-2 ps-3 table-menu-btn-list"
+                                                            aria-labelledby="dropdownMenuButton1">
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black "><i
+                                                                        class="bi bi-pen text-black f-14 me-2"></i>
+                                                                    Edit</a>
+                                                            </li>
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-eye  f-14 text-black me-2"></i>
+                                                                    View</a></li>
+
+
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-people  f-14 text-black me-2"></i>
+                                                                    Change Staff</a></li>
+
+
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-pen  f-14 text-black me-2"></i>
+                                                                    Change Status</a></li>
+
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-book  f-14 text-black me-2"></i>
+                                                                    Comment</a></li>
+
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-list  f-14 text-black me-2"></i>
+                                                                    Generate Report</a></li>
+
+
+                                                            <li><a class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-trash3 f-14 text-black me-2"></i>Delete</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+
+                                                </td>
+                                                <td class="f-14">#087</td>
+                                                <td class="f-14">#087</td>
+                                                <td class="f-14"><a href="candidate-profile.html"
+                                                        class="no-decoration text-black">Muhammad Hafeez</a></td>
+                                                <td class="f-14"> 19970129-5103</td>
+                                                <td class="f-14">Safina</td>
+                                                <td class="f-14"> Torbjörn Christiernsson</td>
+                                                <td class="f-14">Not Assigned</td>
+                                                <td>
+                                                    <div class="status-approved">Result Recieved</div>
+                                                </td>
+                                                <td class="f-14"><input type="checkbox" class="table-checkbox"></td>
+                                                <td class="">
+                                                    <div class="d-flex justify-content-center">
+                                                        <label class="me-2">
+                                                            <input class="economy-radio" type="radio" name="9J8E30">
+                                                            <span class="custom-economy-radio uncheck_economy"
+                                                                data-id="933"></span>
+                                                        </label>
+                                                        <label>
+                                                            <input class="economy2-radio" checked="" type="radio"
+                                                                name="9J8E30">
+                                                            <span class="custom-economy2-radio check_economy"
+                                                                data-id="933"></span>
+                                                        </label>
+                                                    </div>
+                                                </td>
+                                                <td class="">
+                                                    <div class="d-flex justify-content-center">
+                                                        <label class="me-2">
+                                                            <input class="economy-radio" type="radio" name="9J8E30">
+                                                            <span class="custom-economy-radio uncheck_economy"
+                                                                data-id="933"></span>
+                                                        </label>
+                                                        <label>
+                                                            <input class="economy2-radio" checked="" type="radio"
+                                                                name="9J8E30">
+                                                            <span class="custom-economy2-radio check_economy"
+                                                                data-id="933"></span>
+                                                        </label>
+                                                    </div>
+                                                </td>
+
+
+                                                <td class="f-14">2023-06-07</td>
+                                                <td class="f-14">Null</td>
+                                                <td class="f-14">2023-06-07</td>
+
+                                                <td class="f-14">2023-06-14</td>
+
+                                                <td class="f-14">Dekra - Bakgrundskontroll nivå 1</td>
+                                                <td class="f-14">Dekra - Bakgrundskontroll nivå 1</td>
+
+
+                                            </tr>
+
+
+                                            <tr>
+                                                <td class="f-14"><input type="checkbox" class="table-checkbox"></td>
+                                                <td class="f-14">#087</td>
+                                                <td>
+                                                     <div class="dropdown">
+                                                        <button class="table-menu-btn mx-auto" type="button"
+                                                            id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                                            aria-expanded="false">
+                                                            <i class="bi bi-three-dots"></i>
+                                                        </button>
+                                                        <ul class="dropdown-menu p-2 ps-3 table-menu-btn-list"
+                                                            aria-labelledby="dropdownMenuButton1">
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black "><i
+                                                                        class="bi bi-pen text-black f-14 me-2"></i>
+                                                                    Edit</a>
+                                                            </li>
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-eye  f-14 text-black me-2"></i>
+                                                                    View</a></li>
+
+
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-people  f-14 text-black me-2"></i>
+                                                                    Change Staff</a></li>
+
+
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-pen  f-14 text-black me-2"></i>
+                                                                    Change Status</a></li>
+
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-book  f-14 text-black me-2"></i>
+                                                                    Comment</a></li>
+
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-list  f-14 text-black me-2"></i>
+                                                                    Generate Report</a></li>
+
+
+                                                            <li><a class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-trash3 f-14 text-black me-2"></i>Delete</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+
+                                                </td>
+                                                <td class="f-14">#087</td>
+                                                <td class="f-14">#087</td>
+                                                <td class="f-14"><a href="candidate-profile.html"
+                                                        class="no-decoration text-black">Muhammad Hafeez</a></td>
+                                                <td class="f-14"> 19970129-5103</td>
+                                                <td class="f-14">Safina</td>
+                                                <td class="f-14"> Torbjörn Christiernsson</td>
+                                                <td class="f-14">Not Assigned</td>
+                                                <td>
+                                                    <div class="status-approved">Result Recieved</div>
+                                                </td>
+                                                <td class="f-14"><input type="checkbox" class="table-checkbox"></td>
+                                                <td class="">
+                                                    <div class="d-flex justify-content-center">
+                                                        <label class="me-2">
+                                                            <input class="economy-radio" type="radio" name="9J8E30">
+                                                            <span class="custom-economy-radio uncheck_economy"
+                                                                data-id="933"></span>
+                                                        </label>
+                                                        <label>
+                                                            <input class="economy2-radio" checked="" type="radio"
+                                                                name="9J8E30">
+                                                            <span class="custom-economy2-radio check_economy"
+                                                                data-id="933"></span>
+                                                        </label>
+                                                    </div>
+                                                </td>
+                                                <td class="">
+                                                    <div class="d-flex justify-content-center">
+                                                        <label class="me-2">
+                                                            <input class="economy-radio" type="radio" name="9J8E30">
+                                                            <span class="custom-economy-radio uncheck_economy"
+                                                                data-id="933"></span>
+                                                        </label>
+                                                        <label>
+                                                            <input class="economy2-radio" checked="" type="radio"
+                                                                name="9J8E30">
+                                                            <span class="custom-economy2-radio check_economy"
+                                                                data-id="933"></span>
+                                                        </label>
+                                                    </div>
+                                                </td>
+
+
+                                                <td class="f-14">2023-06-07</td>
+                                                <td class="f-14">Null</td>
+                                                <td class="f-14">2023-06-07</td>
+
+                                                <td class="f-14">2023-06-14</td>
+
+                                                <td class="f-14">Dekra - Bakgrundskontroll nivå 1</td>
+                                                <td class="f-14">Dekra - Bakgrundskontroll nivå 1</td>
+
+
+                                            </tr>
+
+
+                                            <tr>
+                                                <td class="f-14"><input type="checkbox" class="table-checkbox"></td>
+                                                <td class="f-14">#087</td>
+                                                <td>
+                                                     <div class="dropdown">
+                                                        <button class="table-menu-btn mx-auto" type="button"
+                                                            id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                                            aria-expanded="false">
+                                                            <i class="bi bi-three-dots"></i>
+                                                        </button>
+                                                        <ul class="dropdown-menu p-2 ps-3 table-menu-btn-list"
+                                                            aria-labelledby="dropdownMenuButton1">
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black "><i
+                                                                        class="bi bi-pen text-black f-14 me-2"></i>
+                                                                    Edit</a>
+                                                            </li>
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-eye  f-14 text-black me-2"></i>
+                                                                    View</a></li>
+
+
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-people  f-14 text-black me-2"></i>
+                                                                    Change Staff</a></li>
+
+
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-pen  f-14 text-black me-2"></i>
+                                                                    Change Status</a></li>
+
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-book  f-14 text-black me-2"></i>
+                                                                    Comment</a></li>
+
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-list  f-14 text-black me-2"></i>
+                                                                    Generate Report</a></li>
+
+
+                                                            <li><a class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-trash3 f-14 text-black me-2"></i>Delete</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+
+                                                </td>
+                                                <td class="f-14">#087</td>
+                                                <td class="f-14">#087</td>
+                                                <td class="f-14"><a href="candidate-profile.html"
+                                                        class="no-decoration text-black">Muhammad Hafeez</a></td>
+                                                <td class="f-14"> 19970129-5103</td>
+                                                <td class="f-14">Safina</td>
+                                                <td class="f-14"> Torbjörn Christiernsson</td>
+                                                <td class="f-14">Not Assigned</td>
+                                                <td>
+                                                    <div class="status-approved">Result Recieved</div>
+                                                </td>
+                                                <td class="f-14"><input type="checkbox" class="table-checkbox"></td>
+                                                <td class="">
+                                                    <div class="d-flex justify-content-center">
+                                                        <label class="me-2">
+                                                            <input class="economy-radio" type="radio" name="9J8E30">
+                                                            <span class="custom-economy-radio uncheck_economy"
+                                                                data-id="933"></span>
+                                                        </label>
+                                                        <label>
+                                                            <input class="economy2-radio" checked="" type="radio"
+                                                                name="9J8E30">
+                                                            <span class="custom-economy2-radio check_economy"
+                                                                data-id="933"></span>
+                                                        </label>
+                                                    </div>
+                                                </td>
+                                                <td class="">
+                                                    <div class="d-flex justify-content-center">
+                                                        <label class="me-2">
+                                                            <input class="economy-radio" type="radio" name="9J8E30">
+                                                            <span class="custom-economy-radio uncheck_economy"
+                                                                data-id="933"></span>
+                                                        </label>
+                                                        <label>
+                                                            <input class="economy2-radio" checked="" type="radio"
+                                                                name="9J8E30">
+                                                            <span class="custom-economy2-radio check_economy"
+                                                                data-id="933"></span>
+                                                        </label>
+                                                    </div>
+                                                </td>
+
+
+                                                <td class="f-14">2023-06-07</td>
+                                                <td class="f-14">Null</td>
+                                                <td class="f-14">2023-06-07</td>
+
+                                                <td class="f-14">2023-06-14</td>
+
+                                                <td class="f-14">Dekra - Bakgrundskontroll nivå 1</td>
+                                                <td class="f-14">Dekra - Bakgrundskontroll nivå 1</td>
+
+
+                                            </tr>
+
+
+
+                                            <tr>
+                                                <td class="f-14"><input type="checkbox" class="table-checkbox"></td>
+                                                <td class="f-14">#087</td>
+                                                <td>
+                                                     <div class="dropdown">
+                                                        <button class="table-menu-btn mx-auto" type="button"
+                                                            id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                                            aria-expanded="false">
+                                                            <i class="bi bi-three-dots"></i>
+                                                        </button>
+                                                        <ul class="dropdown-menu p-2 ps-3 table-menu-btn-list"
+                                                            aria-labelledby="dropdownMenuButton1">
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black "><i
+                                                                        class="bi bi-pen text-black f-14 me-2"></i>
+                                                                    Edit</a>
+                                                            </li>
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-eye  f-14 text-black me-2"></i>
+                                                                    View</a></li>
+
+
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-people  f-14 text-black me-2"></i>
+                                                                    Change Staff</a></li>
+
+
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-pen  f-14 text-black me-2"></i>
+                                                                    Change Status</a></li>
+
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-book  f-14 text-black me-2"></i>
+                                                                    Comment</a></li>
+
+                                                            <li class="mb-1"><a href=""
+                                                                    class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-list  f-14 text-black me-2"></i>
+                                                                    Generate Report</a></li>
+
+
+                                                            <li><a class="no-decoration f-14 w-600 text-black"><i
+                                                                        class="bi bi-trash3 f-14 text-black me-2"></i>Delete</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+
+                                                </td>
+                                                <td class="f-14">#087</td>
+                                                <td class="f-14">#087</td>
+                                                <td class="f-14"><a href="candidate-profile.html"
+                                                        class="no-decoration text-black">Muhammad Hafeez</a></td>
+                                                <td class="f-14"> 19970129-5103</td>
+                                                <td class="f-14">Safina</td>
+                                                <td class="f-14"> Torbjörn Christiernsson</td>
+                                                <td class="f-14">Not Assigned</td>
+                                                <td>
+                                                    <div class="status-approved">Result Recieved</div>
+                                                </td>
+                                                <td class="f-14"><input type="checkbox" class="table-checkbox"></td>
+                                                <td class="">
+                                                    <div class="d-flex justify-content-center">
+                                                        <label class="me-2">
+                                                            <input class="economy-radio" type="radio" name="9J8E30">
+                                                            <span class="custom-economy-radio uncheck_economy"
+                                                                data-id="933"></span>
+                                                        </label>
+                                                        <label>
+                                                            <input class="economy2-radio" checked="" type="radio"
+                                                                name="9J8E30">
+                                                            <span class="custom-economy2-radio check_economy"
+                                                                data-id="933"></span>
+                                                        </label>
+                                                    </div>
+                                                </td>
+                                                <td class="">
+                                                    <div class="d-flex justify-content-center">
+                                                        <label class="me-2">
+                                                            <input class="economy-radio" type="radio" name="9J8E30">
+                                                            <span class="custom-economy-radio uncheck_economy"
+                                                                data-id="933"></span>
+                                                        </label>
+                                                        <label>
+                                                            <input class="economy2-radio" checked="" type="radio"
+                                                                name="9J8E30">
+                                                            <span class="custom-economy2-radio check_economy"
+                                                                data-id="933"></span>
+                                                        </label>
+                                                    </div>
+                                                </td>
+
+
+                                                <td class="f-14">2023-06-07</td>
+                                                <td class="f-14">Null</td>
+                                                <td class="f-14">2023-06-07</td>
+
+                                                <td class="f-14">2023-06-14</td>
+
+                                                <td class="f-14">Dekra - Bakgrundskontroll nivå 1</td>
+                                                <td class="f-14">Dekra - Bakgrundskontroll nivå 1</td>
+
+
+                                            </tr>
+
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/1.13.3/js/jquery.dataTables.min.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
