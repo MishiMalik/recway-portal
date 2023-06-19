@@ -728,20 +728,20 @@ td {
     transform: rotate(360deg);
   }
 }
-.main-heading{
-    font-size: 18px;
-    font-weight: 700;
-    color: var(--purple);
+.main-heading {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--purple);
 }
-.action-icons span{
-height: 25px;
-width: 25px;
-border-radius: 4px;
-background-color: var(--purple);
-color: white;
-display: flex;
-justify-content: center;
-align-items: center;
-font-size: 16px;
-margin-left: 10px;
+.action-icons span {
+  height: 25px;
+  width: 25px;
+  border-radius: 4px;
+  background-color: var(--purple);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  margin-left: 10px;
 }
