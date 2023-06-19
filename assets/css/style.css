@@ -744,4 +744,6 @@ td {
   align-items: center;
   font-size: 16px;
   margin-left: 10px;
+  line-height: 10px;
+  cursor: pointer;
 }
