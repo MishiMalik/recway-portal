@@ -1,10 +1,13 @@
 :root {
   --primary: #4c6ef8;
+  --primary-light: #4c6ef8b0;
   --light: #f4f5fa;
   --text-light: #8890b5;
   --text-dark: #2f3862;
   --purple: #9267ff;
   --text: #8890b5;
+  --green:#4be69d;
+  --yellow:#ffbf43;
   --secondary-font: "Comfortaa", cursive;
 }
 body {
@@ -15,6 +18,17 @@ body {
 }
 .w-600 {
   font-weight: 600 !important;
+}
+.backdrop{
+    background-color: #0000009a;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    min-height: 100vh;
+    display: none;
+    z-index: 80;
 }
 .sidebar-section {
   position: fixed;
@@ -27,6 +41,7 @@ body {
   cursor: pointer;
   background-color: white;
   box-shadow: 0 12px 30px rgba(80, 143, 244, 0.1);
+  transition: all .5s;
 }
 .sidebar-section::-webkit-scrollbar {
   width: 10px;
@@ -254,6 +269,13 @@ body {
   padding-bottom: 120px;
   border-radius: 0px 0px 20px 20px;
 }
+.menu-btn{
+    display: none;
+}
+.menu-btn i{
+    font-size: 20px;
+    color: white;
+}
 .search-section {
   position: relative;
 }
@@ -389,21 +411,34 @@ body {
   justify-content: center;
   align-items: center;
   padding: 25px 0;
-  color: white;
+  color: var(--text);
   font-weight: 600;
   font-size: 18px;
-  border-radius: 10px;
   text-decoration: none;
+  background-color: white;
 }
 .yellow-card {
-  background-color: #ffbf43;
+  border-bottom:6px solid var(--yellow);
+  border-radius: 10px;
 }
 .purple-card {
-  background-color: var(--purple);
+    border-bottom:6px solid var(--primary);
 }
 .green-card {
-  background-color: #4be69d;
+    border-bottom:6px solid var(--green);
 }
+.yellow-card:hover {
+ background-color: var(--yellow);
+ color: white;
+  }
+  .purple-card:hover {
+      background-color:var(--primary);
+      color: white;
+  }
+  .green-card:hover {
+      background-color:var(--green);
+      color: white;
+  }
 .arrow-down-yellow {
   width: 0;
   height: 0;
@@ -436,24 +471,24 @@ body {
   position: relative;
   border-radius: 0.5rem;
   user-select: none;
-  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.4),
-    0 -0.3rem 0.6rem rgba(0, 0, 0, 0.2) inset;
+  /* box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.4),
+    0 -0.3rem 0.6rem rgba(0, 0, 0, 0.2) inset; */
   color: #a5a5a5 !important;
   text-decoration: none;
 }
 .btn-primary:hover {
-  background-color: var(--purple) !important;
+  background-color: var(--primary) !important;
   color: white !important;
 }
 .btn-primary:hover .btn-number {
   background-color: white;
-  color: var(--purple);
+  color: var(--primary);
 }
 .btn-number {
   top: 7px;
   right: 7px;
   border-radius: 100%;
-  background-color: var(--purple);
+  background-color: var(--primary);
   margin-left: 10px !important;
   padding: 4px;
   color: white;
@@ -469,8 +504,9 @@ body {
 }
 .total-card {
   background-color: white;
-  border-radius: 10px;
+  border-radius: 0px 4px 4px 0px;
   padding: 15px;
+  border-left: 4px solid var(--primary);
 }
 .text-lg {
   font-size: 16px;
@@ -485,7 +521,7 @@ body {
 
 .icon-card {
   font-size: 30px;
-  color: var(--purple);
+  color: var(--primary);
 }
 
 /* ================================================table */
@@ -503,7 +539,7 @@ body {
 }
 
 .table-div::-webkit-scrollbar-thumb {
-  background-color: var(--purple);
+  background-color: var(--primary);
   border-radius: 4px;
 }
 
@@ -593,7 +629,7 @@ td {
 .filter-input,
 #myTable_filter input {
   width: 200px;
-  background-color: #9267ff60;
+  background-color: var(--primary-light);
   border: none;
   outline: none;
   padding: 8px 12px 8px 15px;
@@ -731,13 +767,13 @@ td {
 .main-heading {
   font-size: 18px;
   font-weight: 700;
-  color: var(--purple);
+  color: var(--primary);
 }
 .action-icons span {
   height: 25px;
   width: 25px;
   border-radius: 4px;
-  background-color: var(--purple);
+  background-color: var(--primary);
   color: white;
   display: flex;
   justify-content: center;

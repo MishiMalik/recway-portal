@@ -1,3 +1,16 @@
+// =======================================sidebar collapse on small screen 
+$('.menu-btn').on('click',function(){
+    $('.sidebar-section').css("left","0px");
+    $('.backdrop').css("display","block");
+})
+
+$('.backdrop').on('click',function(){
+    $('.sidebar-section').css("left","-270px");
+    $(this).css("display","none");
+})
+
+
+// ================================sidebar dropdown
 let arrow = document.querySelectorAll(".arrow");
 for (var i = 0; i < arrow.length; i++) {
   arrow[i].addEventListener("click", (e) => {
