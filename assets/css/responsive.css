@@ -59,10 +59,22 @@
     width: 100%;
   }
   /* Style the buttons inside the tab */
-.tab2 button,
+/* .tab2 button,
 .tab button {
 width: 100%;
 
+} */
+.tab,
+.tab2{
+  white-space: nowrap;
+  display: flex;
+  overflow-y: hidden !important;
+  overflow-x: scroll !important;
+}
+.tab2 button.active,
+.tab button.active {
+  border-bottom: 2px solid transparent;
+  color: var(--primary);
 }
 .tabcontent,
 .tabcontent2{
