@@ -195,6 +195,38 @@
                                 </div>
                             </div>
                         </div> -->
+                        <div class="col-lg-12 mb-3 d-flex justify-content-between">
+                            <div style="font-size: 14px">
+                                <a class="w-700 me-2 no-decoration text-dark" href=""><i
+                                        class="bi bi-arrow-left-short"></i> Previous</a> <a
+                                    class="w-700 no-decoration text-dark" href="">Next <i
+                                        class="bi bi-arrow-right-short"></i></a>
+                            </div>
+                            <div class="profile-img">
+                                <button class="f-16 w-600 text-dark mb-0 pb-0 btn-primary-sm">Action</button>
+    
+                                <div class="tool-pit">
+                                    <div class="tool-pit-content">
+                                        <div class="d-flex justify-content-end">
+                                            <div class="arrow-up me-3"></div>
+                                        </div>
+                                        <div class="tool-pit-content--header">
+                                            <!-- <a href="" class="no-decoration text-white">Change Status</a> -->
+                                        </div>
+    
+                                        <ul class=" menus">
+                                            <li><a href="">Generate Report</a></li>
+                                            <li><a href="">Delete Report</a></li>
+    
+                                            <hr>
+    
+                                            <li><a href=""> <i class="bx bx-user me-3"></i>Change Status</a></li>
+                                        </ul>
+    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div class="col-lg-8 px-lg-0 mb-lg-0 mb-3 ">
                             <div class="white-box-p-0 h-100">
                                 <div class="tab">
@@ -204,8 +236,9 @@
                                         Details</button>
                                     <button class="tablinks f-14 w-700 " onclick="openCity(event, 'notes')">Additional
                                         Notes</button>
-                                    <button class="tablinks f-14 w-700 " onclick="openCity(event, 'comments')">Comments</button>
-                                
+                                    <button class="tablinks f-14 w-700 "
+                                        onclick="openCity(event, 'comments')">Comments</button>
+
                                 </div>
 
                                 <div id="profile" class="tabcontent ">
@@ -335,7 +368,7 @@
                                     </div>
                                 </div>
 
-                                <div id="comments"  class="tabcontent ">
+                                <div id="comments" class="tabcontent ">
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-lg-12">
@@ -347,8 +380,12 @@
                                                             <a href=""><i class="bi bi-trash ms-1"></i></a>
                                                         </p>
                                                     </div>
-                                                    <p class="p-0 m-0 f-14 w-500 mt-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                                                    <p class="m-0 p-0 w-700 f-12 mt-4" style="text-align: right; font-size: 12px">Jun 23, 2023 08:26 AM</p>
+                                                    <p class="p-0 m-0 f-14 w-500 mt-3">Lorem Ipsum is simply dummy text
+                                                        of the printing and typesetting industry. Lorem Ipsum has been
+                                                        the industry's standard dummy text ever since the 1500s</p>
+                                                    <p class="m-0 p-0 w-700 f-12 mt-4"
+                                                        style="text-align: right; font-size: 12px">Jun 23, 2023 08:26 AM
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -415,6 +452,8 @@
                                         onclick="editCity(event, 'comments2')">Comments</button>
                                     <button class="tablinks2 f-14 w-700 "
                                         onclick="editCity(event, 'email')">Email</button>
+                                    <button class="tablinks2 f-14 w-700 "
+                                        onclick="editCity(event, 'edit-candidate')">Edit Candidate</button>
                                 </div>
 
                                 <div id="staff" class="tabcontent2 ">
@@ -492,7 +531,8 @@
                                                                     <td class="f-14">Amanda@jemtprojekt.se</td>
                                                                     <td class="f-14"> 2023-06-20 11:46:58</td>
                                                                     <td>
-                                                                        <textarea name="text[]" class="sign-textarea" rows="3">&lt;p&gt;&nbsp;&lt;/p&gt;
+                                                                        <textarea name="text[]" class="sign-textarea"
+                                                                            rows="3">&lt;p&gt;&nbsp;&lt;/p&gt;
                                                                             &lt;p&gt;&lt;strong&gt;Hej , Amanda Signer Landstedt&lt;/strong&gt;&lt;/p&gt;
                                                                             &lt;p&gt;Vi har fått in en beställning från &lt;strong&gt;Arbitrium AB&lt;/strong&gt; gällande bakgrundskontroll där &lt;strong&gt;Torbjörn Christiernsson&lt;/strong&gt; gjort beställningen.&nbsp;&lt;/p&gt;
                                                                             &lt;p&gt;För att starta processen och ge ditt samtycke, ber vi dig vänligen att använda följande länk: &lt;a href="https://scrive.com/t/9222115557492473221/38f2f62e3ab8e71b" target="_blank"&gt;Klicka här - Scrive&lt;/a&gt;. Genom att klicka på länken kommer du att tas till en plattform där du kan ge ditt samtycke och slutföra den nödvändiga dokumentationen.&lt;/p&gt;
@@ -517,7 +557,7 @@
                                                                 </tr>
 
 
-                                                               
+
 
 
 
@@ -528,6 +568,116 @@
                                                 </div>
                                             </div>
                                         </div>
+                                    </div>
+                                </div>
+
+                                <div id="edit-candidate" class="tabcontent2 ">
+                                    <div class="container">
+                                        <form class="update-form">
+                                            <div class="row mb-3">
+                                                <div class="col-lg-6 mb-3">
+                                                    <label class="form-label" for="inputAddress">Name</label>
+                                                    <input type="text" class="form-control" id="inputAddress">
+                                                </div>
+                                                <div class="col-lg-6 mb-3">
+                                                    <label class="form-label" for="inputAddress2">Sur Name</label>
+                                                    <input type="text" class="form-control" id="inputAddress2">
+                                                </div>
+                                                <div class="col-md-6 mb-3">
+                                                    <label class="form-label" for="inputEmail4">Email</label>
+                                                    <input type="email" class="form-control" id="inputEmail4">
+                                                </div>
+                                                <div class="col-md-6 mb-3">
+                                                    <label class="form-label" for="inputEmail4">Phone</label>
+                                                    <input type="text" class="form-control" id="inputEmail4">
+                                                </div>
+                                                <div class="col-md-6 mb-3">
+                                                    <label class="form-label" for="inputEmail4">Social Security
+                                                        Number</label>
+                                                    <input type="text" class="form-control" id="inputEmail4">
+                                                </div>
+                                                <div class="col-md-6 mb-3">
+                                                    <label class="form-label" for="inputEmail4">VASC ID</label>
+                                                    <input type="text" class="form-control" id="inputEmail4">
+                                                </div>
+                                                <div class="col-md-12 mb-3">
+                                                    <label class="form-label" for="inputState">Service Type</label>
+                                                    <select id="inputState" class="form-control">
+                                                        <option selected="">Choose...</option>
+                                                        <option>A</option>
+                                                        <option>B</option>
+                                                        <option>C</option>
+                                                        <option>D</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-md-12 mb-3">
+                                                    <label class="form-label">Additional Note
+                                                    </label>
+                                                    <br>
+                                                    <textarea name="" id="" style="width: 100%;" rows="6"
+                                                        placeholder="Here you can create a note about the order that is visible to both you and us. Please note that this note will not be visible to the individual."></textarea>
+                                                </div>
+                                                <div class="col-md-12 mb-3">
+                                                    <label for="" class="border-0">Documents<sapn
+                                                            class="star text-danger">*</span></label>
+                                                    <div class="drop-zone">
+                                                        <span class="drop-zone__prompt">
+                                                            <div
+                                                                class="d-flex flex-column justify-content-center align-items-center">
+                                                                <i class="bi bi-cloud-arrow-up-fill"></i>
+                                                                Here you can upload several documents (Interview
+                                                                Templates, Documents or CV)
+                                                            </div>
+                                                        </span>
+                                                        <input type="file" name="myFile" class="drop-zone__input">
+                                                    </div>
+
+                                                </div>
+                                                <div class="col-md-12 mb-3">
+                                                    <div class="mb-3">
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox"
+                                                                id="gridCheck">
+                                                            <label class="form-label form-check-label" for="gridCheck">
+                                                                Check me out
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox"
+                                                                id="gridCheck">
+                                                            <label class="form-label form-check-label" for="gridCheck">
+                                                                Check me out
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12 mb-3">
+                                                    <label class="form-label form-check-label" for="gridCheck">
+                                                        Select Your Choice
+                                                    </label>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio"
+                                                            name="flexRadioDefault" id="flexRadioDefault1">
+                                                        <label class="form-check-label" for="flexRadioDefault1">
+                                                            Default radio
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio"
+                                                            name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                                        <label class="form-check-label" for="flexRadioDefault2">
+                                                            Default checked radio
+                                                        </label>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+
+                                            <div class="d-flex justify-content-end">
+                                                <button type="submit" class="btn-primary bg-primary">Update</button>
+                                            </div>
+                                        </form>
                                     </div>
                                 </div>
 
