@@ -58,7 +58,18 @@
   .search-section input{
     width: 100%;
   }
+  /* Style the buttons inside the tab */
+.tab2 button,
+.tab button {
+width: 100%;
+
 }
+.tabcontent,
+.tabcontent2{
+  padding: 10px 0px !important;
+}
+}
+
 @media only screen and (max-width: 500px) {
   .btns-row span {
     width: 100%;
