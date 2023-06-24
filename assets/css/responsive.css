@@ -97,5 +97,8 @@ width: 100%;
     width: 18px;
     line-height: 10px;
   }
+  .modal-dialog-lg{
+    max-width: 100% !important;
+  }
 
 }

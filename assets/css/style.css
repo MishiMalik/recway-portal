@@ -1095,3 +1095,6 @@ textarea{
 .modal-dialog-lg{
   max-width: 80% !important;
 }
+.calendar{
+  height: 280px !important;
+}
