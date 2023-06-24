@@ -1085,3 +1085,13 @@ textarea{
   font-weight: 500;
   font-size: 14px;
 }
+
+/* ======================================================Fix cards */
+.overflow-div{
+  height: 250px;
+  width: 100%;
+  overflow-y: scroll;
+}
+.modal-dialog-lg{
+  max-width: 80% !important;
+}
