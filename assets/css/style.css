@@ -342,10 +342,17 @@ body {
 .sub-menu li {
   margin-bottom: 7px !important;
 }
+.hide-side{
+  left: -270px !important;
+}
 
 /* ==================================================================main section */
 .main-section {
   width: calc(100% - 260px);
+  transition: all .5s;
+}
+.full-main{
+  width: 100%;
 }
 .header {
   background-color: var(--primary);

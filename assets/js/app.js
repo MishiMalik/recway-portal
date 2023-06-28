@@ -1,3 +1,17 @@
+
+$('.menu-lg').on('click',function(){
+  // $('.sidebar-section').css("left","-270px");
+  // $('.main-section ').css("width","100%");
+  $('.sidebar-section').toggleClass('hide-side');
+  $('.main-section').toggleClass('full-main');
+})
+
+// $('.backdrop').on('click',function(){
+//   $('.sidebar-section').css("left","-270px");
+//   $(this).css("display","none");
+//   $('body').css("overflow","auto");
+// })
+
 // =======================================sidebar collapse on small screen 
 $('.menu-btn').on('click',function(){
     $('.sidebar-section').css("left","0px");

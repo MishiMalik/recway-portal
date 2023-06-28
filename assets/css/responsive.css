@@ -1,6 +1,6 @@
 @media only screen and (min-width: 1700px) {
   .container {
-    max-width: 80%;
+    max-width: 95%;
   }
 }
 
@@ -22,9 +22,15 @@
   .menu-btn{
     display: block;
 }
+.menu-lg{
+  display: none;
+}
 }
 
 @media only screen and (max-width: 767px) {
+  .desktop-menu{
+    width: 100%;
+  }
   .main-content {
     background-color: #f5f6ff;
     padding: 25px 5px;
